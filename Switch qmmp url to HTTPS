@@ -34,7 +34,7 @@ parts:
 
   qmmp:
     after: [desktop-qt5]
-    source: http://qmmp.ylsoftware.com/files/qmmp-1.4.4.tar.bz2
+    source: https://qmmp.ylsoftware.com/files/qmmp-1.4.4.tar.bz2
     build-packages: [
       g++,qtbase5-dev,
       qtbase5-dev-tools,
