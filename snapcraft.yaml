@@ -123,8 +123,8 @@ parts:
 
 apps:
   qmmp:
-    desktop: share/applications/qmmp.desktop
-    command: bin/qmmp
+    desktop: share/applications/qmmp-1.desktop
+    command: bin/qmmp-1
     command-chain: [bin/desktop-launch]
     plugs:
     - desktop
